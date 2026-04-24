@@ -1,0 +1,32 @@
+body {
+    background-color:white;
+    font-family: Arial;
+}
+.container {
+    display: flex;
+    gap: 16px;
+}
+.article {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+span {
+    color: red;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    body {
+        background-color: lightyellow;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+
+    }
+    .container {
+        flex-direction: column;
+    }
+}
