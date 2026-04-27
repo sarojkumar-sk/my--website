@@ -168,3 +168,18 @@ section.show {
         margin: 10px 0;
     }
 }
+
+.project-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+}
