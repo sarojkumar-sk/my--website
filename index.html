@@ -1,50 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style3.css">
-    </head>
-    <body>
-        <header>
-            <h1>Saroj Kumar</h1>
-            <p>Web Developer</p>
-        </header>
-        <section>
-            <h2>About Me</h2>
-            <img src="photo.jpg" alt="My photo" width="150">
-            <p>I am beginner web developer learning Python, HTML, CSS, and JavaScript.
-            I enjoy building responsive websites and improving my skills every day.</p>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript (learning)</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <p>
-                <a href="#">Responsive Article Layout</a>
-            </p>
-            <p>
-                <a href="#">Study Log JavaScript Project</a>
-            </p>
-            <p>
-                <h3>To-Do App</h3>
-                <a href="https://sarojkumar-sk.github.io/todo-app/" target="_blank">
-                    <button>Live Demo</button>
-                </a>
-            </p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <a href="mailto: sk1011535@gmail.com">
-                <button>Contact Me</button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+<!-- 🔵 Navbar -->
+<nav class="navbar">
+    <h2 class="logo">Saroj</h2>
+
+    <button id="darkModeToggle">🌙</button>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- 🔵 Header -->
+<header class="header">
+    <h1>Saroj Kumar</h1>
+    <p>Frontend Developer | JavaScript Learner</p>
+</header>
+
+<!-- 🔵 About -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="photo.jpg" alt="My Photo" class="profile-img">
+    <p>
+        I am a beginner web developer learning Python, HTML, CSS, and JavaScript.
+        I enjoy building responsive websites and improving my skills every day.
+    </p>
+</section>
+
+<!-- 🔵 Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript (learning)</li>
+    </ul>
+</section>
+
+<!-- 🔵 Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Responsive Article Layout</h3>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Study Log JavaScript Project</h3>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do App</h3>
+            <a href="https://sarojkumar-sk.github.io/todo-app/" target="_blank">
+                <button>Live Demo</button>
             </a>
-        </section>
-       
-    </body>
+        </div>
+
+    </div>
+
+    <p style="margin-top:15px;">
+        <a href="https://github.com/sarojkumar-sk" target="_blank">
+            View More Projects on GitHub
+        </a>
+    </p>
+
+</section>
+
+<!-- 🔵 Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <a href="mailto:sk1011535@gmail.com">
+        <button>Contact Me</button>
+    </a>
+</section>
+
+<!-- 🔵 Footer -->
+<footer>
+    <p>© 2026 Saroj Kumar</p>
+
+    <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+    </div>
+</footer>
+
+<!-- 🔵 JavaScript -->
+<script src="script.js"></script>
+
+</body>
 </html>
