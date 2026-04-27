@@ -132,3 +132,39 @@ section.show {
     opacity: 1;
     transform: translateY(0);
 }
+/* Menu Button */
+.menu-btn {
+    display: none;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #1e3a8a;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
