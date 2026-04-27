@@ -17,3 +17,11 @@ window.addEventListener("scroll", () => {
         }
     });
 });
+
+// 📱 Mobile Menu Toggle
+const menuBtn = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.onclick = function () {
+    navLinks.classList.toggle("show");
+};
